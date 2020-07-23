@@ -1,0 +1,52 @@
+body{
+  padding: 0px;
+}
+#menu{
+    border: 2px solid white;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+.nav-link{
+    font-size: 25px;
+    text-shadow:1px 1px white;
+    font-weight: bold;
+    color: black;
+    margin-right: -16px;
+    margin-left: -16px;
+    background-color: white;
+    border:2px solid black;
+}
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+}
+
+.nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+.text-primary{
+    font-size: 50px;
+}
+.container-fluid{
+   padding: 0px;
+
+}
+@media Screen and (min-width: 991px){
+.navbar-nav{
+        display: none;
+    }
+}
+@media Screen and (max-width: 991px){
+ .text-primary{
+    font-size: 200%;
+ }
+ h2{
+    font-size: 25px;
+ }
+
+ h1{
+    font-size: 35px;
+}
+}
